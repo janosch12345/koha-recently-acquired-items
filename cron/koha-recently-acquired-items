@@ -1,0 +1,2 @@
+#!/bin/sh
+php /path/to/script.php > /path/webserver/can/see/items.json
