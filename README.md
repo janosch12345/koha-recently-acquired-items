@@ -1,5 +1,14 @@
 # koha-recently-acquired-items
 
+This is a little project which displays the recently aquired items on a koha opac. 
+It is based on php.
+
+Requires either access to google-apis or amazon-api for getting the urls of coverimages.
+It is up to you to extend the Coverresoler (under libs) for other/open services.
+
+## setting up
+
 ## getting acquired items
 
-use a cronjob for doing this. f.e. in ubuntu: /etc/cron.daily/koha-recently-acquired-items.sh `php path/to/script.php > /directory/the/webserver/can/see/items.json
+## Koha administration
+
